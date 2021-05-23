@@ -10,7 +10,7 @@ import Product from '../components/Product';
 function HomePage() {
   const dispatch = useDispatch();
   const { loading, error, products } = useSelector(
-    state => state.productsList
+    state => state.productList
   );
 
   useEffect(() => {
